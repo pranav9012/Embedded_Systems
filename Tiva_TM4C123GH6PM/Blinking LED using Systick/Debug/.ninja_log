@@ -1,0 +1,5 @@
+# ninja log v5
+0	88	6755461242774135	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/Obj/startup_TM4C123.o	f98e73133b3d45fe
+18	280	6755461244609305	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/Obj/system_TM4C123.o	47ae13b9cfa63e6
+1	217	6755461704237711	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/Obj/main.o	3527265f31e01bb0
+227	385	6755461705586727	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/Exe/Systick Interrupt.out	4cade2380cb9d11b

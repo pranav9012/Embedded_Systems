@@ -1,0 +1,7 @@
+# ninja log v5
+1	251	6756069113682371	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Obj/startup_TM4C123.o	18f3e43e92d46da1
+62	449	6756069115587270	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Obj/main.o	55ee288729106d16
+58	668	6756069117771717	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Obj/system_TM4C123.o	a6241082ea0ccb7d
+678	1329	6756069124410043	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Exe/LED Blink using GPMT_polling.out	b3b63ff633d8f674
+2	106	6756069474163087	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Obj/main.o	55ee288729106d16
+113	188	6756069474986355	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/Exe/LED Blink using GPMT_polling.out	b3b63ff633d8f674

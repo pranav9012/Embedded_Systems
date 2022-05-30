@@ -1,0 +1,7 @@
+# ninja log v5
+1	34	6755276858082282	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Obj/startup_TM4C123.o	f0f609b98a6ea31f
+4	182	6755276859458882	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Obj/main.o	b8b6a32bc01f9850
+7	202	6755276859668324	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Obj/system_TM4C123.o	1bb3870b6856ec89
+209	324	6755276860914026	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Exe/ADC Potentiometer Interrupt.out	465e152e95a8576e
+1	148	6755278418186182	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Obj/main.o	b8b6a32bc01f9850
+156	207	6755278418794551	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/Exe/ADC Potentiometer Interrupt.out	465e152e95a8576e

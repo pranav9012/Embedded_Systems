@@ -1,0 +1,31 @@
+# ninja log v5
+2	280	6727361540000000	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/main.xcl	ba0a81cd9001c124
+275	485	6727361543174967	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/system_TM4C123.pbi	53e7570de6003429
+0	308	6730117908087434	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/main.pbi	cb139f6a4d3d1da1
+313	365	6730117909087407	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbd	2ba0b31f8ce60664
+371	895	6730117914167431	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbw	3a99abcde5a72ca1
+35	252	6727361540000000	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/system_TM4C123.xcl	aba35a26008b7e40
+2	268	6730118170134088	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/main.pbi	cb139f6a4d3d1da1
+272	317	6730118171047822	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbd	2ba0b31f8ce60664
+322	1182	6730118179429303	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbw	3a99abcde5a72ca1
+2	541	6730118336845806	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/main.pbi	cb139f6a4d3d1da1
+561	722	6730118340018396	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbd	2ba0b31f8ce60664
+753	1796	6730118350336128	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbw	3a99abcde5a72ca1
+2	608	6730118406830700	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/main.pbi	cb139f6a4d3d1da1
+613	664	6730118408750881	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbd	2ba0b31f8ce60664
+671	1622	6730118417696582	E:/Collage work/6 Sem/Embedded Systems and designs/Small Projects/Debug/BrowseInfo/trial.pbw	3a99abcde5a72ca1
+1	1243	6753446380000000	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/main.xcl	f2a0da3167e16ba4
+56	1280	6753446380000000	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/system_TM4C123.xcl	32aa309141afc6e9
+1253	1460	6753446388987311	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/main.pbi	7f8015a3865dba16
+1295	1591	6753446390337295	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/system_TM4C123.pbi	3b547cb698c22734
+1597	1651	6753446391277834	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/trial.pbd	a8fc9cdbd10ad402
+1658	2203	6753446396571413	E:/Github/Projects/Embedded_systems/Tiva TM4C123GH6PM/LED Blinking using PWM and Interrupt/Debug/BrowseInfo/trial.pbw	27ef650a89dfce8f
+36	109	6756089360000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/main.xcl	169a714421fa21da
+40	119	6756089360000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/system_TM4C123.xcl	f86b5cd012c100c9
+116	274	6756089366585483	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/main.pbi	70b6629aaaf0d7dd
+127	298	6756089366794926	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/system_TM4C123.pbi	92af95f6c4be76ae
+302	340	6756089367593068	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/trial.pbd	4ec96e06ff9861c4
+345	802	6756089372000277	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/trial.pbw	c382e9d7f48215d8
+0	153	6756093650485174	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/main.pbi	70b6629aaaf0d7dd
+158	197	6756093651263097	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/trial.pbd	4ec96e06ff9861c4
+203	757	6756093656618501	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED_Blinking_using_PWM_and_external_Interrupt/Debug/BrowseInfo/trial.pbw	c382e9d7f48215d8

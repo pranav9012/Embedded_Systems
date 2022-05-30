@@ -1,0 +1,53 @@
+# ninja log v5
+1	271	6755327880000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.xcl	b89bf9297fb88935
+290	776	6755327889004398	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+788	875	6755327892089220	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+886	1530	6755327898274626	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	126	6755447619244675	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+132	152	6755447619923436	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+157	410	6755447622321875	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	135	6755456546680341	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+140	150	6755456547291448	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+156	395	6755456549550896	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	128	6755459525137294	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+134	143	6755459525736879	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+148	447	6755459528515557	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	129	6755459580094849	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+135	144	6755459580694012	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+149	386	6755459582976641	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	155	6755459634577567	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+161	173	6755459635341626	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+179	458	6755459637995067	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	145	6755460848997709	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+151	160	6755460849664562	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+165	413	6755460852017806	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	173	6755461207400445	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+178	187	6755461208282842	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	82a88e30efb14e94
+192	425	6755461210506907	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+8	86	6755461260000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/system_TM4C123.xcl	bef8d9e19cc3fb1f
+1	101	6755461260000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.xcl	e640b657e055583b
+98	334	6755461264096081	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/system_TM4C123.pbi	5d4a72df9d57e0f8
+116	347	6755461264205789	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+351	396	6755461265282915	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+402	918	6755461270293931	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	197	6755461424169705	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+203	249	6755461425191047	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+256	766	6755461430141934	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	302	6755461533881385	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+307	353	6755461534893662	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+360	899	6755461540141429	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	217	6755461694110068	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+224	269	6755461695110541	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+277	789	6755461700087615	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	182	6755469459211544	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+187	227	6755469460095447	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+234	787	6755469465466533	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	153	6756088097693758	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+157	223	6756088098740842	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+228	690	6756088103181521	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+1	152	6756088255628729	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+155	194	6756088256396752	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+200	653	6756088260797350	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8
+0	151	6756088312673747	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/main.pbi	1bdf259419d1dcd8
+155	193	6756088313431718	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbd	b01478511f91a524
+198	658	6756088317856692	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/Blinking LED using Systick/Debug/BrowseInfo/Systick Interrupt.pbw	262c69c6eb2e27f8

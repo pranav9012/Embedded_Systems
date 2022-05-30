@@ -1,0 +1,1 @@
+A square wave is displayed on the scope when '2' key is pressed

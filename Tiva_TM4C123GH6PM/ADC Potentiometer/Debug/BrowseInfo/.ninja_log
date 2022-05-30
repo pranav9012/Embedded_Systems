@@ -1,0 +1,26 @@
+# ninja log v5
+1	87	6755128860000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.xcl	e7ab33044e28a7c7
+94	241	6755128866612660	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+246	264	6755128867371345	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	9629eb92e4a67941
+269	554	6755128870087724	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+0	119	6755129929173204	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+126	135	6755129929772520	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	9629eb92e4a67941
+141	412	6755129932375259	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+1	78	6755130080000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.xcl	560b1225fa5353d1
+5	91	6755130080000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/system_TM4C123.xcl	2fb788b79ef326f
+89	290	6755130086148073	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+103	297	6755130086227982	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/system_TM4C123.pbi	9efd6eb37e1f0327
+303	348	6755130087192147	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	5757f6a309497de4
+356	889	6755130092389198	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+1	176	6755130346272282	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+181	225	6755130347191301	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	5757f6a309497de4
+232	763	6755130352333097	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+1	184	6755246638340941	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+190	235	6755246639260083	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	5757f6a309497de4
+242	809	6755246644781015	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+1	177	6755247503503275	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+182	228	6755247504421991	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	5757f6a309497de4
+234	800	6755247509902866	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32
+0	181	6755248069269376	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/main.pbi	3feb6940782e7124
+187	231	6755248070188119	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbd	5757f6a309497de4
+239	819	6755248075860853	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/BrowseInfo/ADC_Potentiometer.pbw	2424518cca011f32

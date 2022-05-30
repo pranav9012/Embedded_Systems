@@ -1,0 +1,13 @@
+"E:\IAR\arm\bin\armPROC.dll" 
+
+"E:\IAR\arm\bin\armSIM2.dll" 
+
+"E:\Github\Projects\Embedded_systems\Tiva_TM4C123GH6PM\ADC Potentiometer\Debug\Exe\ADC_Potentiometer.out" 
+
+--plugin="E:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="E:\IAR\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+
+
+

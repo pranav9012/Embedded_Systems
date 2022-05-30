@@ -1,0 +1,23 @@
+# ninja log v5
+1	90	6755260390000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.xcl	35ca644b822d2b07
+96	238	6755260399301456	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+243	260	6755260399969404	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	a9d67a58cfe34dc6
+265	526	6755260402466802	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc
+4	85	6755271240000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/system_TM4C123.xcl	3372a97cc5157528
+0	98	6755271240000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.xcl	6586255078a1dc37
+108	226	6755271247827429	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+95	282	6755271248395903	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/system_TM4C123.pbi	57ecbf1095f9cd25
+288	323	6755271249165119	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	30532ca0aa504af7
+331	807	6755271253814638	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc
+1	160	6755276787727205	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+165	200	6755276788492136	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	30532ca0aa504af7
+206	664	6755276792946635	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc
+2	163	6755277907691822	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+168	205	6755277908481063	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	30532ca0aa504af7
+212	713	6755277913323302	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc
+1	251	6755278371330846	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+254	291	6755278372089154	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	30532ca0aa504af7
+297	762	6755278376618491	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc
+0	158	6755278529944058	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/main.pbi	6c922c10973864e1
+163	200	6755278530703713	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbd	30532ca0aa504af7
+207	655	6755278535087323	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer Interrupt/Debug/BrowseInfo/ADC Potentiometer Interrupt.pbw	43a7fcb54e0e11bc

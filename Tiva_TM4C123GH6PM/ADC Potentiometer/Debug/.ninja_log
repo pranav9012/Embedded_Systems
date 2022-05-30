@@ -1,0 +1,8 @@
+# ninja log v5
+1	46	6755130046671374	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Obj/startup_TM4C123.o	817bbf5e2d576d2b
+4	209	6755130048209446	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Obj/main.o	ab26c0387632b1ab
+7	243	6755130048549105	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Obj/system_TM4C123.o	f9c6a92fac0bbcc
+2	113	6755130323915916	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Obj/main.o	ab26c0387632b1ab
+122	228	6755130325076890	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Exe/ADC_Potentiometer.out	8c8fa20bec5d3d79
+3	194	6755248066632588	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Obj/main.o	ab26c0387632b1ab
+203	262	6755248067366708	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/ADC Potentiometer/Debug/Exe/ADC_Potentiometer.out	8c8fa20bec5d3d79

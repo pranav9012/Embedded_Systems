@@ -1,0 +1,29 @@
+# ninja log v5
+0	951	6756037390000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.xcl	72ca9e4b5dcdbd35
+961	1334	6756037394940297	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+1338	1392	6756037395938982	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	6cc9405feab555f5
+1397	1816	6756037399899543	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+1	228	6756038374290753	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+233	242	6756038374810051	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	6cc9405feab555f5
+248	519	6756038377415258	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+0	126	6756052320494753	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+131	148	6756052321114027	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	6cc9405feab555f5
+155	470	6756052324112625	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+0	114	6756068895699553	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+119	137	6756068896296220	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	6cc9405feab555f5
+141	448	6756068899188509	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+4	87	6756069150000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/system_TM4C123.xcl	c963e1fd19eb6d3
+1	103	6756069150000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.xcl	37db781a347dbfc2
+111	460	6756069155262351	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+96	470	6756069155302237	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/system_TM4C123.pbi	7de0c03fc14e2b1a
+474	512	6756069156150635	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	383f96519b85c34b
+516	1054	6756069161320387	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+1	167	6756069465138971	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/main.pbi	c062b2cdc71a5f8b
+172	213	6756069465956781	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	383f96519b85c34b
+218	754	6756069471153220	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPMT/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	60a1217213846d5a
+4	80	6756088450000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/system_TM4C123.xcl	d54d91b811e6e048
+0	95	6756088450000000	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/main.xcl	e289b9f496039700
+88	203	6756088454359837	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/system_TM4C123.pbi	f6b0cad0ad5d9757
+102	210	6756088454449598	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/main.pbi	fa8ad4e53c838333
+214	224	6756088454958229	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/LED Blink using GPMT_polling.pbd	5b1c5bd80fde51a1
+231	492	6756088457419478	E:/Github/Projects/Embedded_systems/Tiva_TM4C123GH6PM/LED Blinking using GPTM/Debug/BrowseInfo/LED Blink using GPMT_polling.pbw	488311bba44c5ecf

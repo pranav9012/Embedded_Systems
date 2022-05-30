@@ -1,0 +1,19 @@
+lxi h, 5500h
+mvi m, 0Eh
+lda 5500h
+inx h
+mvi m, 04h
+mov b, m
+mvi c, 00h
+SUB: cmp b
+     jc FINAL
+     sub b 
+     inr c
+     jmp SUB
+FINAL: sta 6601h
+       mov a, c
+       sta 6600h
+       hlt
+      
+
+	

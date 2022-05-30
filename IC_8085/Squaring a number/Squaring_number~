@@ -1,0 +1,15 @@
+lxi h, 4100h
+mvi m, 05h
+mvi a, 00h
+mov b, m
+mov c, m
+mvi d, 00h
+loop1: add b
+	jnc loop2
+	inr d
+
+loop2: dcr c
+       jnz loop1
+       sta 4103h
+       hlt
+	
