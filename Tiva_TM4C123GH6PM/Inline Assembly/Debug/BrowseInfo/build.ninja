@@ -1,0 +1,41 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = E$:\IAR\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++E$:\IAR\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = E$:\IAR\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++E$:\IAR\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = E$:\IAR\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++E$:\IAR\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = E$:\IAR\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++E$:\IAR\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\main.c" -xcl_file "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.xcl" -macro_file "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.tmp" -icc_path E$:\IAR\arm\bin\iccarm.exe
+  flags = "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\main.c" -o "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config E$:\IAR\arm\inc\c\DLib_Config_Normal.h -Ol --predef_macros "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.tmp"
+  rspfile_name = E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.xcl.rsp
+
+build E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.pbi : INDEXER E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.xcl |  $
+E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\main.c
+  flags = "-out=E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.pbi" -f "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.xcl"
+
+build E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbw : MAKEBROWSE E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbd
+  flags = "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbd" -output "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbw"
+
+build E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbd : PDBLINK E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.pbi
+  flags = -M "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\inline1.pbd" "E$:\Embedded$ C$ Programming\TM4C123GH6PM\Inline$ Assembly\Debug\BrowseInfo\main.pbi"
+
