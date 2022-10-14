@@ -1,0 +1,15 @@
+"E:\IAR\arm\bin\armPROC.dll" 
+
+"E:\IAR\arm\bin\armLMIFTDI.dll" 
+
+"E:\Embedded C Programming\TM4C123GH6PM\Operation Modes\Debug\Exe\Test.out" 
+
+--plugin="E:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="E:\IAR\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+--flash_loader="E:\IAR\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
+
+
+
+
