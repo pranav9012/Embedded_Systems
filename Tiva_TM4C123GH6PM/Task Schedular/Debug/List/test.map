@@ -1,0 +1,460 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.2.320/W64 for ARM                  28/Sep/2022  13:59:16
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Embedded C Programming\TM4C123GH6PM\Task
+#        Schedular\Debug\Exe\test.out
+#    Map file     =
+#        E:\Embedded C Programming\TM4C123GH6PM\Task
+#        Schedular\Debug\List\test.map
+#    Command line =
+#        -f "E:\Embedded C Programming\TM4C123GH6PM\Task
+#        Schedular\Debug\Exe\test.out.rsp" ("E:\Embedded C
+#        Programming\TM4C123GH6PM\Task Schedular\Debug\Obj\main.o" "E:\Embedded
+#        C Programming\TM4C123GH6PM\Task Schedular\Debug\Obj\startup_TM4C123.o"
+#        "E:\Embedded C Programming\TM4C123GH6PM\Task
+#        Schedular\Debug\Obj\system_TM4C123.o" --no_out_extension -o
+#        "E:\Embedded C Programming\TM4C123GH6PM\Task
+#        Schedular\Debug\Exe\test.out" --redirect _Printf=_PrintfFullNoMb
+#        --redirect _Scanf=_ScanfFullNoMb --map "E:\Embedded C
+#        Programming\TM4C123GH6PM\Task Schedular\Debug\List\test.map" --config
+#        E:\IAR\arm\config\linker\TexasInstruments\TM4C123GH6.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x26c
+  .intvec            ro code          0x0   0x26c  startup_TM4C123.o [1]
+                                  - 0x26c   0x26c
+
+"P1":                                      0x22b5
+  .text              ro code        0x26c   0xf12  xprintffull_nomb.o [2]
+  .text              ro code       0x117e    0x3a  packbits_init_single.o [4]
+  .text              ro code       0x11b8    0x16  strchr.o [4]
+  .text              ro code       0x11d0    0x40  xfail_s.o [2]
+  .text              ro code       0x1210    0x36  strlen.o [4]
+  .text              ro code       0x1248    0x58  memchr.o [4]
+  .text              ro code       0x12a0    0xa6  ABImemcpy.o [4]
+  .text              ro code       0x1348    0x70  frexp.o [3]
+  .text              ro code       0x13b8    0x34  DblCmpLe.o [3]
+  .text              ro code       0x13ec    0x34  DblCmpGe.o [3]
+  .text              ro code       0x1420   0x13a  ldexp.o [3]
+  .text              ro code       0x155c    0x36  DblToS32.o [3]
+  .text              ro code       0x1594    0x22  S32ToDbl.o [3]
+  .text              ro code       0x15b8   0x24e  DblAddSub.o [3]
+  .text              ro code       0x1808   0x246  DblDiv.o [3]
+  .text              ro code       0x1a50    0x22  DblToU32.o [3]
+  .text              ro code       0x1a74    0x1c  U32ToDbl.o [3]
+  .text              ro code       0x1a90   0x1aa  DblMul.o [3]
+  .text              ro code       0x1c3c   0x230  I64DivMod.o [4]
+  .text              ro code       0x1e6c     0x6  abort.o [2]
+  .text              ro code       0x1e74     0x2  I64DivZer.o [4]
+  .text              ro code       0x1e78    0x14  exit.o [5]
+  .text              ro code       0x1e8c    0x7c  iarttio.o [5]
+  .text              ro code       0x1f08     0x8  XShttio.o [2]
+  .text              ro code       0x1f10   0x180  main.o [1]
+  .text              ro code       0x2090    0x28  printf.o [2]
+  .text              ro code       0x20b8    0x98  system_TM4C123.o [1]
+  .text              ro code       0x2150    0x28  data_init.o [4]
+  .text              ro code       0x2178    0x22  fpinit_M.o [3]
+  .text              ro code       0x219a    0x22  iarwrite.o [5]
+  .iar.init_table    const         0x21bc    0x10  - Linker created -
+  .text              ro code       0x21cc    0x20  putchar.o [2]
+  .text              ro code       0x21ec    0x10  write.o [5]
+  .text              ro code       0x21fc    0x1e  dwrite.o [5]
+  .text              ro code       0x221a    0x20  iarwstd.o [5]
+  .text              ro code       0x223c    0x1e  cmain.o [4]
+  .text              ro code       0x225a     0x4  low_level_init.o [2]
+  .text              ro code       0x225e     0x4  exit.o [2]
+  .text              ro code       0x2264     0xa  cexit.o [4]
+  .rodata            const         0x2270    0x1c  main.o [1]
+  .rodata            const         0x228c    0x1c  main.o [1]
+  .rodata            const         0x22a8    0x1c  main.o [1]
+  .text              ro code       0x22c4    0x1c  cstartup_M.o [4]
+  .text              ro code       0x22e0    0x16  xprout.o [2]
+  .rodata            const         0x22f8    0x10  main.o [1]
+  .rodata            const         0x2308    0x10  main.o [1]
+  .rodata            const         0x2318    0x10  main.o [1]
+  .rodata            const         0x2328    0x10  main.o [1]
+  .text              ro code       0x2338    0x10  startup_TM4C123.o [1]
+  .text              ro code       0x2348     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x234c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2350     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2354     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2358     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x235c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2360     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2364     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2368     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x236c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2370     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2374     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2378     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x237c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2380     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2384     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2388     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x238c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2390     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2394     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2398     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x239c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23a0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23a4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23a8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23ac     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23b0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23b4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23b8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23bc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23c0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23c4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23c8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23cc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23d0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23d4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23d8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23dc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23e0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23e4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23e8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23ec     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23f0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23f4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23f8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x23fc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2400     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2404     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2408     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x240c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2410     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2414     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2418     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x241c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2420     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2424     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2428     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x242c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2430     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2434     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2438     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x243c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2440     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2444     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2448     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x244c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2450     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2454     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2458     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x245c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2460     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2464     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2468     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x246c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2470     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2474     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2478     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x247c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2480     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2484     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2488     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x248c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2490     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2494     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2498     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x249c     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24a0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24a4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24a8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24ac     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24b0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24b4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24b8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24bc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24c0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24c4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24c8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24cc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24d0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24d4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24d8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24dc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24e0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24e4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24e8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24ec     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24f0     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24f4     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24f8     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x24fc     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2500     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2504     0x4  startup_TM4C123.o [1]
+  .text              ro code       0x2508     0x4  startup_TM4C123.o [1]
+  .rodata            const         0x250c     0x0  packbits_init_single.o [4]
+  Initializer bytes  const         0x250c    0x15  <for P2-1>
+                                 - 0x2521  0x22b5
+
+"P2", part 1 of 2:                           0x30
+  P2-1                        0x2000'0000    0x30  <Init block>
+    .data            inited   0x2000'0000    0x10  main.o [1]
+    .data            inited   0x2000'0010     0x8  XShttio.o [2]
+    .bss             inited   0x2000'0018    0x10  main.o [1]
+    .bss             inited   0x2000'0028     0x4  main.o [1]
+    .bss             inited   0x2000'002c     0x4  xfail_s.o [2]
+                            - 0x2000'0030    0x30
+
+"P2", part 2 of 2:                         0x1000
+  CSTACK                      0x2000'0030  0x1000  <Block>
+    CSTACK           uninit   0x2000'0030  0x1000  <Block tail>
+                            - 0x2000'1030  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x2521     0x3'ffff  0x3'dadf
+  0x2000'1030  0x2000'7fff    0x6fd0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x15 (43% of destination):
+               0x250c  0x15
+    1 destination range, total size 0x30:
+          0x2000'0000  0x30
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\Embedded C Programming\TM4C123GH6PM\Task Schedular\Debug\Obj: [1]
+    main.o                      384      164       36
+    startup_TM4C123.o         1'088
+    system_TM4C123.o            152
+    -------------------------------------------------
+    Total:                    1'624      164       36
+
+dl7M_tln.a: [2]
+    XShttio.o                     8        3        8
+    abort.o                       6
+    exit.o                        4
+    low_level_init.o              4
+    printf.o                     40
+    putchar.o                    32
+    xfail_s.o                    64        2        4
+    xprintffull_nomb.o        3'858
+    xprout.o                     22
+    -------------------------------------------------
+    Total:                    4'038        5       12
+
+m7M_tls.a: [3]
+    DblAddSub.o                 590
+    DblCmpGe.o                   52
+    DblCmpLe.o                   52
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToS32.o                   54
+    DblToU32.o                   34
+    S32ToDbl.o                   34
+    U32ToDbl.o                   28
+    fpinit_M.o                   34
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    2'312
+
+rt7M_tl.a: [4]
+    ABImemcpy.o                 166
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       58
+    strchr.o                     22
+    strlen.o                     54
+    -------------------------------------------------
+    Total:                    1'058
+
+shb_l.a: [5]
+    dwrite.o                     30
+    exit.o                       20
+    iarttio.o                   124
+    iarwrite.o                   34
+    iarwstd.o                    32
+    write.o                      16
+    -------------------------------------------------
+    Total:                      256
+
+    Gaps                         28        4
+    Linker created                        16    4'096
+-----------------------------------------------------
+    Grand Total:              9'316      189    4'144
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x21bc          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x21cc          --   Gb  - Linker created -
+?main                        0x223d         Code  Gb  cmain.o [4]
+BusFault_Handler             0x204b    0xa  Code  Gb  main.o [1]
+CSTACK$$Base            0x2000'0030          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1030          --   Gb  - Linker created -
+HardFault_Handler            0x2037    0xa  Code  Gb  main.o [1]
+MemManage_Handler            0x2041    0xa  Code  Gb  main.o [1]
+Region$$Table$$Base          0x21bc          --   Gb  - Linker created -
+Region$$Table$$Limit         0x21cc          --   Gb  - Linker created -
+SysTick_Handler              0x1ffd    0xc  Code  Gb  main.o [1]
+SystemInit                   0x20b9   0x64  Code  Gb  system_TM4C123.o [1]
+_LitobFullNoMb                0xf85  0x10c  Code  Lc  xprintffull_nomb.o [2]
+_PrintfFullNoMb               0x26d  0xce8  Code  Gb  xprintffull_nomb.o [2]
+_Prout                       0x22e1   0x16  Code  Gb  xprout.o [2]
+_PutcharFullNoMb             0x10e9   0x20  Code  Lc  xprintffull_nomb.o [2]
+_PutcharsFullNoMb            0x1109   0x2e  Code  Lc  xprintffull_nomb.o [2]
+__Vectors                       0x0          --   Gb  startup_TM4C123.o [1]
+__Vectors_End                 0x26c         Data  Gb  startup_TM4C123.o [1]
+__Vectors_Size {Abs}          0x26c          --   Gb  startup_TM4C123.o [1]
+__aeabi_cdcmple              0x13b9         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x13ed         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz                 0x155d         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz                0x1a51         Code  Gb  DblToU32.o [3]
+__aeabi_ddiv                 0x1809         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x1a91         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x1725         Code  Gb  DblAddSub.o [3]
+__aeabi_i2d                  0x1595         Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0                0x1e75         Code  Gb  I64DivZer.o [4]
+__aeabi_memcpy               0x12a1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4              0x12c1         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8              0x12c1         Code  Gb  ABImemcpy.o [4]
+__aeabi_ui2d                 0x1a75         Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod             0x1c3d         Code  Gb  I64DivMod.o [4]
+__cmain                      0x223d         Code  Gb  cmain.o [4]
+__dwrite                     0x21fd   0x1e  Code  Gb  dwrite.o [5]
+__exit                       0x1e79   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s                 0x11d1   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr                 0x1249         Code  Gb  memchr.o [4]
+__iar_Strchr                 0x11b9         Code  Gb  strchr.o [4]
+__iar_close_ttio             0x1e8d   0x2c  Code  Gb  iarttio.o [5]
+__iar_data_init3             0x2151   0x28  Code  Gb  data_init.o [4]
+__iar_frexp                  0x1355         Code  Gb  frexp.o [3]
+__iar_frexpl                 0x1355         Code  Gb  frexp.o [3]
+__iar_get_ttio               0x1eb9   0x4c  Code  Gb  iarttio.o [5]
+__iar_init_vfp               0x2179         Code  Gb  fpinit_M.o [3]
+__iar_ldexp64                0x1421         Code  Gb  ldexp.o [3]
+__iar_lookup_ttioh           0x1f09    0x8  Code  Gb  XShttio.o [2]
+__iar_packbits_init_single3
+                             0x117f   0x3a  Code  Gb  packbits_init_single.o [4]
+__iar_program_start          0x22c5         Code  Gb  cstartup_M.o [4]
+__iar_scalbln64              0x1421         Code  Gb  ldexp.o [3]
+__iar_scalbn64               0x1421         Code  Gb  ldexp.o [3]
+__iar_sh_stdout              0x221b   0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write               0x219b   0x22  Code  Gb  iarwrite.o [5]
+__iar_softfp___iar_frexp64
+                             0x1349         Code  Gb  frexp.o [3]
+__iar_softfp_frexp           0x1349         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl          0x1349         Code  Gb  frexp.o [3]
+__iar_ttio_handles      0x2000'0010    0x8  Data  Lc  XShttio.o [2]
+__low_level_init             0x225b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  startup_TM4C123.o [1]
+__vector_table_0x1c            0x1c         Data  Gb  startup_TM4C123.o [1]
+__write                      0x21ed   0x10  Code  Gb  write.o [5]
+_call_main                   0x2249         Code  Gb  cmain.o [4]
+_exit                        0x2265         Code  Gb  cexit.o [4]
+abort                        0x1e6d    0x6  Code  Gb  abort.o [2]
+current_task            0x2000'0028    0x4  Data  Gb  main.o [1]
+enable_processor_faults
+                             0x1f93    0xc  Code  Gb  main.o [1]
+exit                         0x225f    0x4  Code  Gb  exit.o [2]
+get_psp_value                0x1f9f    0xc  Code  Gb  main.o [1]
+init_sched_stack             0x1f49    0x6  Code  Gb  main.o [1]
+init_systic_timer            0x1fc5   0x36  Code  Gb  main.o [1]
+init_tasks_stack             0x1f4f   0x44  Code  Gb  main.o [1]
+ldexp                        0x1421         Code  Gb  ldexp.o [3]
+ldexpl                       0x1421         Code  Gb  ldexp.o [3]
+main                         0x1f11   0x38  Code  Gb  main.o [1]
+memchr                       0x1249         Code  Gb  memchr.o [4]
+printf                       0x2091   0x28  Code  Gb  printf.o [2]
+psp_of_tasks            0x2000'0000   0x10  Data  Gb  main.o [1]
+putchar                      0x21cd   0x20  Code  Gb  putchar.o [2]
+scalbln                      0x1421         Code  Gb  ldexp.o [3]
+scalblnl                     0x1421         Code  Gb  ldexp.o [3]
+scalbn                       0x1421         Code  Gb  ldexp.o [3]
+scalbnl                      0x1421         Code  Gb  ldexp.o [3]
+scale                        0x1091   0x46  Code  Lc  xprintffull_nomb.o [2]
+sec_hand                0x2000'002c    0x4  Data  Lc  xfail_s.o [2]
+strchr                       0x11b9         Code  Gb  strchr.o [4]
+strlen                       0x1211         Code  Gb  strlen.o [4]
+switch_sp_to_psp             0x1fad   0x18  Code  Gb  main.o [1]
+task1_handler                0x2009    0xa  Code  Gb  main.o [1]
+task2_handler                0x2015    0xa  Code  Gb  main.o [1]
+task3_handler                0x2021    0xa  Code  Gb  main.o [1]
+task4_handler                0x202d    0xa  Code  Gb  main.o [1]
+tasks_handler           0x2000'0018   0x10  Data  Gb  main.o [1]
+
+
+[1] = E:\Embedded C Programming\TM4C123GH6PM\Task Schedular\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  9'316 bytes of readonly  code memory
+    189 bytes of readonly  data memory
+  4'144 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
